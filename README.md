@@ -1,6 +1,6 @@
 # How it works
 
-First run: saves the current 36 entries as baseline → no email sent<br /> 
+First run: saves the current number of entries as baseline → no email sent<br /> 
 Subsequent runs: compares against the saved state; any new (error_code, heatpump, date, time) triggers an email<br /> 
 State is only updated after a successful email send — so if the email fails, the next run will retry<br /> 
 
